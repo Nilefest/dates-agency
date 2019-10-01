@@ -20,9 +20,12 @@ $config = array(
 	'db_type'      =>      'pdo',
 	'db_hostname'  =>      'localhost',
 	'db_port'      =>      3306,
-	'db_username'  =>      'u0701138_root',
-	'db_password'  =>      'nilefest321',
-	'db_database'  =>      'u0701138_agency',
+	'db_username'  =>      'kievdati_root',
+	'db_password'  =>      'kievdati_root123',
+	'db_database'  =>      'kievdati_agencydb',
+	/*'db_username'  =>      'u0701138_root',/**/
+	/*'db_password'  =>      'nilefest321',/**/
+	/*'db_database'  =>      'u0701138_agency',/**/
     
 	// Mail
 	'mail_host'    =>      'smtp.gmail.com',
@@ -44,9 +47,5 @@ $config = array(
     'page_for_pay'  =>     'https://www.paypal.me/kievdating',
     'top_girls'     =>     ['main' => ['44', '45', '43', '38', '50', '48', '47', '51'],
                             'page' => ['43', '44', '45', '38']],
-    /*1. Избавился от ошибки, которая вызывалась при добавлении о девушке большого объёма информации
-2. При отправки формы о заказе/подарке... перебрасывает на страницу для оплаты
-3. Исправил отображение девушек, которые не были отмечены "Опубликова" (у Админа в галерее теперь отображается с подзаголовком UNPUBLIC)
-4. Привязал девушек с главной странице и на девушек на панели слева на страницах девушек к их личным страницам*/
 );
 ?>
