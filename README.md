@@ -1,2 +1,6 @@
 # agency
-Site for KievAgency (Anna)
+Site for KievAgency
+
+---
+
+Old simple project with simple mvc-framework
